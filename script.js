@@ -2,8 +2,8 @@
 const STATS_CONFIG = {
     // Онлайн: случайное число между minOnline и maxOnline
     online: {
-        min: 4,
-        max: 9
+        min: 2,
+        max: 6
     },
     // Продано: случайное число между minSales и maxSales
     sales: {
@@ -268,4 +268,5 @@ window.onclick = function(event) {
 function refreshStats() {
     updateStats();
     showNotification('Статистика обновлена!', 'success');
+
 }
