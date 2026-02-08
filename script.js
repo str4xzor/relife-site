@@ -2,13 +2,13 @@
 const STATS_CONFIG = {
     // Онлайн: случайное число между minOnline и maxOnline
     online: {
-        min: 2,
-        max: 6
+        min: 3,
+        max: 7
     },
     // Продано: случайное число между minSales и maxSales
     sales: {
-        min: 10,
-        max: 15
+        min: 16,
+        max: 20
     }
 };
 
@@ -270,3 +270,4 @@ function refreshStats() {
     showNotification('Статистика обновлена!', 'success');
 
 }
+
